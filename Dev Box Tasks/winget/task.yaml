@@ -1,0 +1,6 @@
+name: winget
+powershellEntrypoint: './winget.ps1'
+parameters:
+  name: install
+  type: string
+  required: true
